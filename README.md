@@ -1,10 +1,12 @@
 Description..
+
 1. Introduction
 The Railway Ticket Booking System is designed to streamline the process of booking train
 tickets online. It provides a comprehensive platform for passengers to search for trains, make
 reservations, and complete payments seamlessly. They also provide food ordering and Retring
 room booking facilities. The system also includes administrative functionalities to manage trains,
 passengers, reservations, and routes efficiently.
+
 2. Objectives
 ● Simplify the ticket booking process for passengers.
 ● Enable secure and efficient payment transactions.
@@ -12,6 +14,7 @@ passengers, reservations, and routes efficiently.
 ● Allow passengers to reserve retiring rooms at destination stations using their PNR.
 ● Provide an intuitive interface for both passengers and administrators.
 ● Ensure data integrity and consistency through robust database management.
+
 3. Functional Requirements
 3.1 Passenger Module
 ● Registration & Login: Passengers can create accounts and log in securely.
@@ -33,17 +36,20 @@ payment.
 ● Room types: Single, Double, Dormitory
 ● Check-in and check-out management
 ● Cancellation and refund policies
+
 3.4 Food Ordering System
 ● Passengers can order food using PNR No.s
 ● Integration with station-based restaurants
 ● View restaurant menus and select items
 ● Order status tracking and delivery at the selected station
 ● Secure payment and refund policy
+
 3.5 Payment Module
 ● Payment Methods: Support multiple payment methods (credit/debit cards, net banking,
 UPI).
 ● Transaction Management: Process payments securely with transaction tracking.
 ● Payment Status: Update status (successful, pending, failed) and generate receipts.
+
 3.6 Train and Route Management (Admin Module)
 ● Manage Trains: Add, update, or delete train details (train number, name, source,
 destination, type).
@@ -55,6 +61,7 @@ destination, type).
 departure times.
 ● Passenger Management: View and manage passenger data for security and auditing
 purposes.
+
 4. Non-Functional Requirements
 ● Performance: Fast response times for search queries and transactions.
 ● Security: Secure authentication, data encryption, and payment gateway integration.
@@ -68,10 +75,12 @@ Route.
 constraints.
 ● Data Integrity: Use primary keys, foreign keys, and constraints to maintain data
 consistency.
+
 6. User Roles and Permissions
 ● Passenger: Can register, book tickets, make payments, and view personal bookings.
 ● Admin: Has full control over system data, including managing trains, routes,
 passengers, and reservations.
+
 7. Constraints and Assumptions
 ● System assumes availability of reliable internet for real-time booking.
 ● Payment processing depends on third-party payment gateways.
@@ -79,6 +88,7 @@ passengers, and reservations.
 ● Retiring room booking available only for confirmed PNRs
 ● Food ordering restricted to partner restaurants at specific stations
 ● Online payment mandatory for booking and food orders
+
 8. Future Enhancements
 ● Integration with mobile apps for on-the-go bookings.
 ● Dynamic pricing based on demand and seat availability.,
