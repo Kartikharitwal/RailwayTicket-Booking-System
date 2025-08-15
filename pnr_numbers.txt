@@ -1,0 +1,2 @@
+// This file will store PNR numbers in the format: PNR|STATUS|DATE
+// Each PNR will be on a new line 16334|CONFIRMED|2025-04-15 20:23:36

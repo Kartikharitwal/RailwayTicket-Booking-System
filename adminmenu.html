@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>IR</title>
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="icon" type="icon/png" href="asset/img/logo/rail_icon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="asset/css/bootstrap.min.css">
+
+    <!-- Optional CSS -->
+    <link rel="stylesheet" href="asset/font-awesome/css/all.min.css">
+    <link rel="stylesheet" href="asset/css/animate.css">
+    <link rel="stylesheet" href="asset/css/hover-min.css">
+    <link rel="stylesheet" type="text/css" href="asset/css/custom.css">
+
+    <!-- JavaScript -->
+    <script src="asset/js/jquery-3.4.1.slim.min.js"></script>
+    <script src="asset/js/popper.min.js"></script>
+    <script src="asset/js/bootstrap.min.js"></script>
+
+    <style type="text/css">
+		body {
+			background: url(asset/img/10.jpg);
+			background-repeat: no-repeat;
+			background-size: 100%;
+			background-attachment: fixed;
+		}
+		.left {
+			background: rgba(1,1,1,0.8);
+			width: 90%;
+			color: white;
+			list-style-type: none;	
+			border-radius: 4px;
+		}
+		.bg-trans {
+			background: rgba(1,1,1,0);
+			color: white;
+		}
+		.left li a {
+			color: #ddd;
+			display: block;
+			padding: 20px;
+			font-family: Bahnschrift;
+			text-align: center;
+		}
+		li {
+			padding-left: 20px;
+			padding-right: 20px;
+		}
+		.left li:hover {
+			background: #233;
+			border-radius: 50px;
+			color: #fff;
+		}
+		.left a:hover {
+			text-decoration: none;
+		}
+	</style>
+</head>
+<body>
+	<!-- Main Admin Navigation Sidebar -->
+	<nav class="navbar navbar-dark left">
+		<ul class="navbar-nav">
+			<li><a class="active" href="admin_dashboard.php">Dashboard</a></li>
+			<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Trains</a>
+				<div class="dropdown-menu bg-trans">
+					<a href="admin_viewtrains.php" class="dropdown-item">View Trains</a>
+					<a href="admin_addtrains.php" class="dropdown-item">Add Trains Details</a>
+					<a href="admin_edittrains.php" class="dropdown-item">Edit Trains Details</a>
+					<a href="admin_deletetrains.php" class="dropdown-item">Delete Train</a>
+					<a href="fair_report.php" class="dropdown-item">Fare Report</a>
+				</div>
+			</li>
+			<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Tickets</a>
+				<div class="dropdown-menu bg-trans">
+					<a href="admin_viewtickets.php" class="dropdown-item">View All Tickets</a>
+					<a href="confirmed_tickets.php" class="dropdown-item">Confirmed Tickets</a>
+				</div>
+			</li>
+			<li><a href="admin_pnrstatus.php">PNR Status</a></li>
+			<li><a href="admin_viewfeedbacks.php">View Feedbacks</a></li>
+			<li><a href="custom_query.php"><i class="fas fa-terminal"></i> Run Custom Query</a></li>
+		</ul>
+	</nav>
+</body>
+</html>
