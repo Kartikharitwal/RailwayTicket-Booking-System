@@ -21,14 +21,7 @@
             $er_invalid = "invalid username & password";
         }
     }
-<<<<<<< HEAD
 ?>
-=======
- ?>
-
-
-
->>>>>>> 9cde57e9d4fe1346c087eb8f14242abaee368fb0
 
 <!doctype html>
 <html lang="en">
@@ -208,12 +201,7 @@
     <!-- include footer -->
     <div class="row wd ">
             <div class="col-12 text-light text-center bg-black p-3">
-<<<<<<< HEAD
                 Developed By Team IIIT DELHI
-=======
-                Copyright &copy; 2020 | All rights reserved <br>
-                Developed by bappa_developers
->>>>>>> 9cde57e9d4fe1346c087eb8f14242abaee368fb0
             </div>
        </div> 
     
