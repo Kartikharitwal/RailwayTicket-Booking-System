@@ -1,14 +1,7 @@
 <<<<<<< HEAD
 # Railway Sytem project developed using HTML, CSS, JS, PHP and MySQL
-### for project images and report check the asset directory.
 
-![](https://ForTheBadge.com/images/badges/built-with-love.svg)
 
-### ALSO DONT FORGET TO SUBSCRIBE [[YouTube]](https://www.youtube.com/@itsTechnicalRoot)
-
- ### 💰 You can help me by Donating
-  [![BuyMeACoffee](https://img.buymeacoffee.com/button-api/?text=Buymeacoffee&emoji=&slug=codingstella&button_colour=FFDD00&font_colour=000000&font_family=Comic&outline_colour=000000&coffee_colour=ffffff)](https://www.buymeacoffee.com/c1ph3rx)
-=======
 Description..
 
 1. Introduction
@@ -105,8 +98,3 @@ passengers, and reservations.
 ● Dynamic pricing based on demand and seat availability.,
 ● Real-time train tracking for passengers.
 
-ER Model link
-Comment : ChatGPT(reference while working though project, not as such any
-speific), References from previous year work, IRCTC , Trainman, Indian Railway
-Website
->>>>>>> 9cde57e9d4fe1346c087eb8f14242abaee368fb0
